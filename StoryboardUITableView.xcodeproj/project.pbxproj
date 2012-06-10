@@ -20,6 +20,8 @@
 		FCFEF19A1456A20700A35707 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEF1991456A20700A35707 /* SecondViewController.m */; };
 		FCFEF19C1456A20700A35707 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEF19B1456A20700A35707 /* second.png */; };
 		FCFEF19E1456A20700A35707 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEF19D1456A20700A35707 /* second@2x.png */; };
+		FCFEF1A61456A48100A35707 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEF1A51456A48100A35707 /* AlbumViewController.m */; };
+		FCFEF1A91456A6ED00A35707 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEF1A81456A6ED00A35707 /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +29,25 @@
 		FCFEF17C1456A20700A35707 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCFEF17E1456A20700A35707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCFEF1801456A20700A35707 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FCFEF1841456A20700A35707 /* StoryboardUITableView-Info.plist */ = {isa = PBXFileReference; path = "StoryboardUITableView-Info.plist"; sourceTree = "<group>"; };
+		FCFEF1841456A20700A35707 /* StoryboardUITableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardUITableView-Info.plist"; sourceTree = "<group>"; };
 		FCFEF1861456A20700A35707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCFEF1881456A20700A35707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCFEF18A1456A20700A35707 /* StoryboardUITableView-Prefix.pch */ = {isa = PBXFileReference; path = "StoryboardUITableView-Prefix.pch"; sourceTree = "<group>"; };
-		FCFEF18B1456A20700A35707 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFEF18A1456A20700A35707 /* StoryboardUITableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardUITableView-Prefix.pch"; sourceTree = "<group>"; };
+		FCFEF18B1456A20700A35707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCFEF18C1456A20700A35707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCFEF18F1456A20700A35707 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FCFEF1911456A20700A35707 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		FCFEF18F1456A20700A35707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FCFEF1911456A20700A35707 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FCFEF1921456A20700A35707 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		FCFEF1941456A20700A35707 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		FCFEF1961456A20700A35707 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		FCFEF1981456A20700A35707 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		FCFEF1981456A20700A35707 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FCFEF1991456A20700A35707 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FCFEF19B1456A20700A35707 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		FCFEF19D1456A20700A35707 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		FCFEF1A41456A48100A35707 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		FCFEF1A51456A48100A35707 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		FCFEF1A71456A6ED00A35707 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		FCFEF1A81456A6ED00A35707 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 			children = (
 				FCFEF18B1456A20700A35707 /* AppDelegate.h */,
 				FCFEF18C1456A20700A35707 /* AppDelegate.m */,
+				FCFEF1A71456A6ED00A35707 /* Album.h */,
+				FCFEF1A81456A6ED00A35707 /* Album.m */,
+				FCFEF1A41456A48100A35707 /* AlbumViewController.h */,
+				FCFEF1A51456A48100A35707 /* AlbumViewController.m */,
 				FCFEF18E1456A20700A35707 /* MainStoryboard.storyboard */,
 				FCFEF1911456A20700A35707 /* FirstViewController.h */,
 				FCFEF1921456A20700A35707 /* FirstViewController.m */,
@@ -185,6 +195,8 @@
 				FCFEF18D1456A20700A35707 /* AppDelegate.m in Sources */,
 				FCFEF1931456A20700A35707 /* FirstViewController.m in Sources */,
 				FCFEF19A1456A20700A35707 /* SecondViewController.m in Sources */,
+				FCFEF1A61456A48100A35707 /* AlbumViewController.m in Sources */,
+				FCFEF1A91456A6ED00A35707 /* Album.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +308,7 @@
 				FCFEF1A31456A20700A35707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

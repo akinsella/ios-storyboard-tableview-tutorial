@@ -7,13 +7,58 @@
 //
 
 #import "AppDelegate.h"
+#import "Album.h"
+#import "AlbumViewController.h"
+@implementation AppDelegate{
+    NSMutableArray *albums;
+}
 
-@implementation AppDelegate
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    albums = [NSMutableArray arrayWithCapacity:5];
+    Album *album1 = [[Album alloc] init];
+    Album *album2 = [[Album alloc] init];
+    Album *album3 = [[Album alloc] init];
+    Album *album4 = [[Album alloc] init];
+    Album *album5 = [[Album alloc] init];
+
+    album1.albumName = @"Graduation";
+    album2.albumName = @"Dark and Twisted Fantasy";
+    album3.albumName = @"Torches";
+    album4.albumName = @"Nothing But The Beat";
+    album5.albumName = @"Angles";
+
+    album1.artist = @"Kanye West";
+    album2.artist = @"Kanye West";
+    album3.artist = @"Foster The People";
+    album4.artist = @"David Guetta";
+    album5.artist = @"The Strokes";
+
+    album1.rating = 5;
+    album2.rating = 5;
+    album3.rating = 5;
+    album4.rating = 5;
+    album5.rating = 5;
+
+    [albums addObject:album1];
+    [albums addObject:album2];
+    [albums addObject:album3];
+    [albums addObject:album4];
+    [albums addObject:album5];
+    
+    UITabBarController *tabBarController = 
+    (UITabBarController *)self.window.rootViewController;
+	
+    UINavigationController *navigationController = 
+    [[tabBarController viewControllers] objectAtIndex:0];
+	
+    AlbumViewController *albumsViewController = 
+    [[navigationController viewControllers] objectAtIndex:0];
+	albumsViewController.albums = albums;
+
     // Override point for customization after application launch.
     return YES;
 }
